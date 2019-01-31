@@ -22,7 +22,7 @@ class Star_wars extends Component {
     }
     render(){
         const {loading,data} = this.state;
-        return <SideBar loading={loading} data={data}></SideBar>  
+        return <SideBar loading={loading} data={data}/>
     }
 }
 export default Star_wars;
